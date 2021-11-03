@@ -11,7 +11,7 @@ const connect = function () {
   conn.setEncoding("utf8");
 
   conn.on("timeout", () => {
-    console.log("timeout");
+    console.log("your snake died");
   });
 
   return conn;
